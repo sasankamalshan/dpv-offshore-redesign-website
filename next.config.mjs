@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Enables strict mode for React (good for development)
-    reactStrictMode: true, 
-  };
+  reactStrictMode: true,
+  output: 'export',  // <--- ADD THIS LINE
   
-  export default nextConfig;
+  // Optional: The workflow handles image optimization automatically, 
+  // but if you see image errors, you can force it here:
+  images: {
+    unoptimized: true,
+  }
+};
+
+export default nextConfig;
