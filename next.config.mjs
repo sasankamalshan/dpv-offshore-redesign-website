@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  output: 'export',  // <--- ADD THIS LINE
+  output: 'export',
   
-  // Optional: The workflow handles image optimization automatically, 
-  // but if you see image errors, you can force it here:
+  // IMPORTANT: Replace 'dpv-offshore' with your exact GitHub repository name.
+  // If your repo URL is github.com/user/my-site, then this should be '/my-site'
+  basePath: '/dpv-offshore-redesign-website', 
+
   images: {
     unoptimized: true,
   }
