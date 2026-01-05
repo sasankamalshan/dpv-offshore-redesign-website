@@ -55,7 +55,7 @@ const AboutUsSection = () => {
         {/* Background Image */}
         <div className="relative h-[400px]">
           <img 
-            src="/images/about-us.png" 
+            src="/dpv-offshore-redesign-website/images/about-us.png" 
             alt="Maritime Industrial Scene" 
             className="w-full h-full object-cover"
           />

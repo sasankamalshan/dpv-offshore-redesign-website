@@ -9,7 +9,7 @@ export default function CompassHero({ x = 0, y = 0, scale = 1 }) {
       {/* Background/Base - Static */}
       <div className="relative w-[650px] h-[650px]">
         <Image 
-          src="/images/compass-design.png"
+          src="/dpv-offshore-redesign-website/images/compass-design.png"
           alt="Compass Base"
           fill
           className="object-contain opacity-90"
@@ -21,7 +21,7 @@ export default function CompassHero({ x = 0, y = 0, scale = 1 }) {
             <div className="animate-spin-slow">
               <div className="relative w-[400px] h-[400px]">
                 <Image 
-                  src="/images/big-needl.png"
+                  src="/dpv-offshore-redesign-website/images/big-needl.png"
                   alt="Big Needle"
                   fill
                   className="object-contain"
@@ -37,7 +37,7 @@ export default function CompassHero({ x = 0, y = 0, scale = 1 }) {
             <div className="animate-spin-reverse-slow">
               <div className="relative w-[260px] h-[260px]">
                 <Image 
-                  src="/images/small-needls.png"
+                  src="/dpv-offshore-redesign-website/images/small-needls.png"
                   alt="Small Needle"
                   fill
                   className="object-contain"
