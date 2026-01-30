@@ -247,19 +247,28 @@ export default function CompassHero() {
           boxShadow: '0 0 20px rgba(0, 180, 216, 0.2)'
         }} />
       </div>
+      {/* Main Landing Page Text - "YOUR ASSETS ARE" */}
+      <div className="absolute left-1/2 top-[20%] -translate-x-1/2 w-full" data-node-id="2435:3464" style={{width: '100%', height: '100%', textAlign: 'left', fontSize: 70, fontFamily: 'Inter', fontStyle: 'bold italic', fontWeight: '800', wordWrap: 'break-word', background: 'linear-gradient(to right, rgba(74, 52, 204, 1), rgba(0, 180, 216, 1))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
+        YOUR ASSETS ARE 
+      </div>
+
+      {/* Main Landing Page Text - "IN SAFE HANDS" */}
+      <div className="absolute left-1/2 top-[28%] -translate-x-1/2 w-full" data-node-id="2435:3466" style={{width: '100%', height: '100%', textAlign: 'center', fontSize: 70, fontFamily: 'Inter', fontStyle: 'italic', fontWeight: '800', wordWrap: 'break-word', background: 'linear-gradient(to right, rgba(74, 52, 204, 1), rgba(0, 180, 216, 1))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text'}}>
+        IN SAFE HANDS
+      </div>
 
       {/* Directional Text (N, S, E, W) - Figma Design */}
-      <div className="absolute contents leading-[normal] left-[calc(41.67%+35.23px)] not-italic text-[#251a66] text-[50px] top-[-9px]" data-name="text" data-node-id="2134:3428" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: '600' }}>
-        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(66.67%+49.78px)] top-[-1px] w-[47.303px]" data-node-id="2134:3424">
+      <div className="absolute contents leading-[normal] left-[calc(41.67%+35.23px)] not-italic text-[#251a66] text-[50px] top-[-9px]" data-name="text" data-node-id="2134:3428" style={{ fontFamily: 'Poppins', fontWeight: '600' }}>
+        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(66.67%+49.78px)] top-[-1px] w-[47.303px]" data-node-id="2134:3424" style={{ fontFamily: 'Poppins' }}>
           N
         </p>
-        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(66.67%+49.78px)] top-[720.61px] w-[47.303px]" data-node-id="2134:3425">
+        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(66.67%+49.78px)] top-[720.61px] w-[47.303px]" data-node-id="2134:3425" style={{ fontFamily: 'Poppins' }}>
           S
         </p>
-        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(91.67%+62.58px)] top-[350.78px] w-[40.404px]" data-node-id="2134:3426">
+        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(91.67%+62.58px)] top-[350.78px] w-[40.404px]" data-node-id="2134:3426" style={{ fontFamily: 'Poppins' }}>
           E
         </p>
-        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(41.67%+35.23px)] top-[361.62px] w-[60.114px]" data-node-id="2134:3427">
+        <p className="absolute css-4hzbpn h-[81.794px] left-[calc(41.67%+35.23px)] top-[361.62px] w-[60.114px]" data-node-id="2134:3427" style={{ fontFamily: 'Poppins' }}>
           W
         </p>
       </div>
@@ -270,7 +279,7 @@ export default function CompassHero() {
           animationDuration: '20s',
           animationDirection: 'reverse'
         }} data-name="big needl" data-node-id="2132:3376">
-          <div className="absolute inset-[-2.32%_-5.33%_-5.41%_-2.57%] opacity-70 hover:opacity-100 transition-opacity duration-300">
+          <div className="absolute inset-[-2.32%_-5.33%_-5.41%_-2.57%] opacity-100">
             <img alt="" className="block max-w-none size-full" src={imgBigNeedl} />
           </div>
         </div>
@@ -281,7 +290,7 @@ export default function CompassHero() {
         }}>
           <div className="flex-none rotate-[-46.28deg]">
             <div className="h-[370.818px] relative w-[371.004px]" data-name="small needls" data-node-id="2132:3394">
-              <div className="absolute inset-[-3.24%_-7.28%_-7.55%_-3.5%] opacity-60 hover:opacity-90 transition-opacity duration-300">
+              <div className="absolute inset-[-3.24%_-7.28%_-7.55%_-3.5%] opacity-100">
                 <img alt="" className="block max-w-none size-full" src={imgSmallNeedls} />
               </div>
             </div>
